@@ -1,0 +1,7 @@
+Objective,Strategy,V_Biomas,V_Chem
+Biomas,['CS'],2000.0,1.0
+Chemical,['CS'],1.0,2000.0
+Biomas,"['PFL', 'SUCOAS']",0.1883229874521464,0.835962163201043
+Chemical,"['PFL', 'SUCOAS']",0.10812695938423583,13.27836278959972
+Biomas,"['AKGDH', 'FRD2', 'LDH_D']",2000.0,1.0
+Chemical,"['AKGDH', 'FRD2', 'LDH_D']",1.0,2000.0
