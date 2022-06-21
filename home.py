@@ -39,7 +39,7 @@ with dataset:
     st.text("The column called Time_log is essentially the log base 10 of the computational time.")
     st.text('The Time_log makes it easier to scale and compare.')
 
-    methods_data = pd.read_csv('~/MNData/All_methods_results_ecoli.csv')
+    methods_data = pd.read_csv('MNData/All_methods_results_Ecoli.csv')
     st.subheader('Complete Data Frame - Ecoli')
     st.write(methods_data[['Model','Method','K','Time','Time_Log','Chem_OverP','Biomas_P']])
     fig1 = sns.catplot(x="Method",y="Time_Log",hue="K",aspect=3,data=methods_data)
